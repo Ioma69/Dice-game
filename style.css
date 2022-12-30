@@ -27,7 +27,7 @@ main {
 }
 
 
-button {
+button, .fa-solid {
     background: transparent;
     border: 1px solid transparent;
     text-shadow:  rgb(0, 255, 13) 1px 0 10px;
