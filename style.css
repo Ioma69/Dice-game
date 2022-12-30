@@ -167,3 +167,7 @@ button {
     }
   }
 
+  .safari {
+    text-rendering: optimizeLegibility;
+  }
+
