@@ -1,0 +1,169 @@
+body {
+    box-sizing: border-box;
+    background-image: url("Image/endless-constellation\ \(1\).svg");
+    height: 100vh;
+   }
+
+
+main {
+    color: white;
+    font-family:'Press Start 2P', cursive;
+    height: 100vh;    
+}
+
+
+.current {
+    padding: 20px 100px 20px 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 6px rgba(43, 255, 0, 0.63);
+    width: 14vw;
+    height: 12vh;
+}
+
+
+.score {
+    text-shadow: rgba(43, 255, 0, 0.63) 1px 0 1px;
+    letter-spacing: 2px;
+}
+
+
+button {
+    background: transparent;
+    border: 1px solid transparent;
+    text-shadow:  rgb(0, 255, 13) 1px 0 10px;
+    
+  }
+
+
+.player, .score, .modal {
+    text-shadow:  rgb(0, 255, 13) 1px 0 10px;
+}
+
+
+.diceStyle {
+    width: 25vh;
+    height: 14vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.widthSize {
+    width: 33.33%
+}
+
+
+
+@media only screen and (min-width: 350px) and (max-width : 992px) {
+  .diceStyle {
+    width: 15vh;
+    height: 10vh;
+  }
+
+}
+
+@media only screen and (min-width: 350px) and (max-width : 576px) {
+  .current {
+    padding: 25px 56px 80px 58px;
+      height: 10vh;
+  }
+  .margin {
+    margin-top: 125px;
+  }
+
+}
+
+
+@keyframes hvr-buzz {
+    50% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+  }
+
+
+  .hvr-buzz {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+
+
+  .hvr-buzz:hover {
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+
+  @-webkit-keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+
+
+  @keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+
+
+  .hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+
+
+  .hvr-pulse:hover {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+
+
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0.2;
+    }
+  }
+
