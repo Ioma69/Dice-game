@@ -13,7 +13,8 @@ body {
 main {
     color: white;
     font-family:'Press Start 2P', cursive;
-    height: 100vh;    
+    height: 100vh;   
+    height: -webkit-fill-available;
 }
 
 
