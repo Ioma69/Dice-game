@@ -1,11 +1,11 @@
 html {
-  height: -webkit-fill-available;
+  height: 100%;
 }
 
 body {
     box-sizing: border-box;
     background-image: url("Image/endless-constellation\ \(1\).svg");
-    height: 100vh;
+    height: 100%;
     height: -webkit-fill-available;
    }
 
@@ -13,7 +13,7 @@ body {
 main {
     color: white;
     font-family:'Press Start 2P', cursive;
-    height: 100vh;   
+    height: 100%;   
     
 }
 
@@ -48,8 +48,8 @@ button {
 
 
 .diceStyle {
-    width: 25vh;
-    height: 14vh;
+    width: 20%;
+    height: 10%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,7 +65,7 @@ button {
 
 @media only screen and (min-width: 350px) and (max-width : 992px) {
   .diceStyle {
-    height: 10vh;
+    height: 8%;
   }
 
 }
@@ -175,7 +175,4 @@ button {
     text-rendering: optimizeLegibility;
   }
 
-  .responsive {
-    height: -webkit-fill-available;
-  }
 
