@@ -175,3 +175,7 @@ button {
     text-rendering: optimizeLegibility;
   }
 
+  .responsive {
+    height: -webkit-fill-available;
+  }
+
