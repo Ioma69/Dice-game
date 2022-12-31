@@ -1,7 +1,7 @@
 
 body {
     background-image: url("Image/endless-constellation\ \(1\).svg");
-    height: 100vh;
+    min-height: -webkit-fill-available;
    }
 
 
